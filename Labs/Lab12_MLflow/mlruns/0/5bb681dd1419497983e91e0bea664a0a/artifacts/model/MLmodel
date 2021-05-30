@@ -1,0 +1,13 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.6.13
+  tensorflow:
+    meta_graph_tags:
+    - serve
+    saved_model_dir: tfmodel
+    signature_def_key: predict
+run_id: 5bb681dd1419497983e91e0bea664a0a
+utc_time_created: '2021-03-22 07:45:28.467870'

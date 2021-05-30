@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ng/Downloads/CSYE7245_NidhiGoyal/Team6_CSYE7245_Spring2021/Labs/Lab12/mlruns/0/183d8ac67464476cb5cc830d462b6a89/artifacts
+end_time: 1616399341136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 183d8ac67464476cb5cc830d462b6a89
+run_uuid: 183d8ac67464476cb5cc830d462b6a89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1616399331635
+status: 3
+tags: []
+user_id: ng
