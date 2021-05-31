@@ -8,11 +8,11 @@ import boto3
 import s3fs
 
 def aws_session(region_name='us-east-1'):
-    return boto3.session.Session(aws_access_key_id="AKIATL6KQADWNMBXWPHF",
-                                aws_secret_access_key="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",
+    return boto3.session.Session(aws_access_key_id="",
+                                aws_secret_access_key="",
                                 region_name=region_name)
 
-bucket = 'sevir-demo' 
+bucket = '' 
 startAfter = 'CATALOG.csv'  
 session = aws_session()
 conn = boto3.client('s3')
